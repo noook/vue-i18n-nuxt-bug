@@ -2,6 +2,19 @@
 
 Look at the [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
 
+## VS Code configuration
+
+As this is a Vue 3 project, you should use Volar and disable Vetur for the workspace.
+
+There is additional setup to make DX even better, by enabling Takeover mode. You can read more here: <https://vuejs.org/guide/typescript/overview.html#volar-takeover-mode>.
+
+It consists of those steps:
+1. In your project workspace, bring up the command palette with Ctrl + Shift + P (macOS: Cmd + Shift + P).
+2. Type `built` and select "Extensions: Show Built-in Extensions".
+3. Type `typescript` in the extension search box (do not remove @builtin prefix).
+4. Click the little gear icon of "TypeScript and JavaScript Language Features", and select "Disable (Workspace)".
+5. Reload the workspace. Takeover mode will be enabled when you open a Vue or TS file.
+
 ## Setup
 
 Make sure you have the correct version of node. You can easily check, and automatically install the right version by running
