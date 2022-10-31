@@ -1,0 +1,20 @@
+{
+    "eslint.alwaysShowStatus": true,
+    "eslint.format.enable": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "[typescript]": {
+        "editor.tabSize": 2,
+        "editor.insertSpaces": true
+    },
+    "[vue]": {
+        "editor.tabSize": 2,
+        "editor.insertSpaces": true
+    },
+    "files.associations": {
+        ".env.local": "env",
+        ".env.template": "env"
+    },
+    "tailwindCSS.experimental.configFile": ".nuxt/tailwind.config.cjs",
+}
