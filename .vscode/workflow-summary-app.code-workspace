@@ -19,7 +19,8 @@
 			"editor.insertSpaces": true
 		},
 		"files.associations": {
-			".env.local": "env"
+			".env.local": "env",
+			".env.template": "env"
 		}
 	}
 }
