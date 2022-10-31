@@ -1,0 +1,20 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Attach workflow-summary-app",
+        "request": "attach",
+        "restart": true,
+        "type": "node",
+        "port": 9244
+      },
+      {
+        "name": "Run workflow-summary-app in Debug mode",
+        "command": "make start",
+        "request": "launch",
+        "type": "node-terminal",
+        "autoAttachChildProcesses": true
+      }
+    ]
+  }
+  
