@@ -3,6 +3,7 @@
         "dbaeumer.vscode-eslint",
         "Vue.volar",
         "IronGeek.vscode-env",
-        "bradlc.vscode-tailwindcss"
+        "bradlc.vscode-tailwindcss",
+        "vscode-icons-team.vscode-icons"
     ]
 }

@@ -14,7 +14,13 @@
     },
     "files.associations": {
         ".env.local": "env",
-        ".env.template": "env"
+        ".env.template": "env",
+        "*.css": "tailwindcss",
+        "*.scss": "tailwindcss",
     },
+    "editor.quickSuggestions": {
+        "strings": true,
+    },
+    "tailwindCSS.lint.cssConflict": "error",
     "tailwindCSS.experimental.configFile": ".nuxt/tailwind.config.cjs",
 }
