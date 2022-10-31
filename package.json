@@ -14,5 +14,9 @@
     "@nuxtjs/tailwindcss": "^6.1.2",
     "nuxt": "3.0.0-rc.12",
     "sass": "^1.55.0"
+  },
+  "dependencies": {
+    "@pinia/nuxt": "^0.4.3",
+    "pinia": "^2.0.23"
   }
 }
